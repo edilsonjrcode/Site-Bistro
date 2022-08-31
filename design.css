@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@300;400;500;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Inicial */
+
+#initial {
+    height: 100vh;
+    width: 100vw;
+    background: url(/imagens/imagem-1.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+#titulo_menor {
+    padding-top: 5vh;
+    font-size: 22px;
+    font-family: 'Solway', serif;
+    letter-spacing: 5px;
+}
+
+#titulo_maior {
+    padding-top: 220px;
+    padding-bottom: 115px;
+    font-size: 104px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+#botao {
+    padding: 20px 50px;
+    text-decoration: none;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Space Grotesk', sans-serif;
+
+}   
+
+/* GERAL */
+
+.layout {
+    width: 100vw;
+    height: 100vh;
+    background: #F5F5EF;
+    padding: 12vw 12vw;
+
+}
+
+/* QUADRO 1 */
+
+#texto_layout {
+    float: right;
+    width: 25vw;
+    height: 50vh;
+    padding: 5px;
+}
+
+#botao_layout {
+    padding: 15px 25px;
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#imagem_layout {
+    float: left;
+    width: 40vw;
+    height: 60vh;
+}
+
+/* QUADRO 2 */
+
+#div_quadro {
+    float: right;
+    width: 55vw;
+    height: 50vh;
+    display: flex;
+}
+
+.quadro {
+    text-align: center;
+    width: 35vw;
+}
+
+#texto_quadro {
+    float: left;
+    width: 15vw;
+    height: 25vh;
+}
+
+/* QUADRO 3 */
+
+#caixa_texto {
+    display: flex;
+    width: 80vw;
+    height: 50vh;
+}
+
+.texto_opiniao {
+    width: 20vw;
+    text-align: left;
+    margin-left: 5vw;
+}
+
+/* Rodapé */
+
+footer {
+    width: 100vw;
+    height: 45vh;
+    background: #F5F5EF;
+    text-align: center;
+    padding: 5vh 10vw;
+}
+
+#descricao_footer {
+    text-align: center;
+}
